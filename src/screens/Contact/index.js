@@ -49,7 +49,7 @@ export default class SignInScreen extends React.Component {
 							color: '#e72258'
 						}}
 					>
-						Toma Pedidos
+						Odoo App
 					</Text>
 					<Image
 						source={imgLogo}
@@ -63,7 +63,7 @@ export default class SignInScreen extends React.Component {
 						<View style={{ marginTop: 10 }}>
 							<Text style={styles.subtitle}>Correo</Text>
 							<TouchableOpacity onPress={this.sendMail}>
-								<Text style={styles.content}>contacto@conflux.pe</Text>
+								<Text style={styles.content}>fnaquiravargas@gmail.com</Text>
 							</TouchableOpacity>
 							<Text style={styles.subtitle}>Teléfonos de asistencia: </Text>
 							<TouchableOpacity onPress={() => this.callPhone('999555444')}>
